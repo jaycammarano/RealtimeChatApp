@@ -8,12 +8,14 @@ import "./index.css";
 const App = () => {
     return (
     <Container>
-        <p>Heres some text</p>
-        <h1>Chat</h1>
+        <h1>Home Page</h1>
+        <p>Uses React and Graphql. Simple chat functionality that takes advantage of websockets to give a live chat function between multiple users.
+
+        The chat app is loaded into a separate app, Home Page, via Webpack 5's ModuleFederation plugin.</p>
+        <h2>Chat</h2>
         <div>
             <Chat />
         </div>
-        <p>And Some More</p>
     </Container>)};
 
 ReactDOM.render(<App />, document.getElementById("app"));
